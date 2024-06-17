@@ -1,0 +1,144 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+body{
+    margin: 0%;
+    background-color: #00081d;
+}
+
+#logo{
+    width: 150px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#container{
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(https://assets.nflxext.com/ffe/siteui/vlv3/530fc327-2ddb-4038-a3f0-2da2d9ccede1/81c68250-e0f1-4cd8-bf2d-4fd8222163de/BR-pt-20230619-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    height: 700px;
+    padding: 40px;
+}
+
+select{
+    padding: 2px, 15px;
+    font-size: 16px;
+}
+
+#btn-enter{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    margin: 15px;
+}
+
+select{
+    padding: 5px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.548);
+    border: none;
+    border-radius: 4px;
+    background-image: url(../);
+}
+
+#texto1 {
+    color: white;
+    margin-top: 100px;
+    margin-left: 110px;
+    font-size: 55px;
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 1400px;
+}
+
+#submain{
+    color: white;
+    margin-top: 5px;
+    margin-left: 110px;
+    font-size: 19px;
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 1400px;
+}
+
+#submain2{
+    color: white;
+    margin-top: 20px;
+    margin-left: 110px;
+    font-size: 19px;
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 100px; 
+}
+
+
+#form{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 110px;
+}
+
+#input{
+    height: 50px;
+    width: 350px;
+    margin-left: 110px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    border: none;
+}
+
+#btn-start{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 22px;
+    padding: 13px 15px;
+    font-weight: 1000px;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    border-radius: 6px;
+
+}
+
+
+#box-container{
+    width: 100%;
+    height: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;    
+    background: linear-gradient(333.52deg, #000235 47%, #010F42 53%, #E40913 104.96%);;
+    border-radius: 5px;
+}
+
+.box-info{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+}
+
+.box-title{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.subtitle-main{
+    font-size: 20px;
+}
+
+.shadow{
+    width: 85%;
+    height: 7px;
+    background-color: rgba(0, 0, 0, 0.467);
+    margin: 0 auto;
+}
